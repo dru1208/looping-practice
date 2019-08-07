@@ -19,7 +19,7 @@ const students = [
   },
   {
     name: "bill blanks",
-    age: 25,
+    age: 62,
     id: 203,
     gender: "male",
     major: "environmental engineering",
@@ -40,7 +40,15 @@ const students = [
     gender: "female",
     major: "economics",
     enrolled: true
-  }
+  },
+  {
+    name: "liz iac",
+    age: 26,
+    id: 222,
+    gender: "female",
+    major: "chemical engineering",
+    enrolled: false
+  },
 ]
 
 const teachers = [
@@ -71,12 +79,12 @@ const teachers = [
   },
 ]
 
-function makePassingList() {
-  
+function makePassingList(list) {
+  return "hello world"
 }
 
 const checkIt = function() {
-  // showIt("copy-01", makePassingList(grades));
+  showIt("copy-01", makePassingList(grades));
 }
 
 checkIt();
