@@ -15,7 +15,8 @@ const students = [
     id: 1431,
     gender: "male",
     major: "music",
-    enrolled: false
+    enrolled: false,
+    classPeriods: ["a", "b", "c"]
   },
   {
     name: "bill blanks",
@@ -23,7 +24,8 @@ const students = [
     id: 203,
     gender: "male",
     major: "environmental engineering",
-    enrolled: true
+    enrolled: true,
+    classPeriods: ["a", "d", "g"]
   },
   {
     name: "steve woz",
@@ -31,7 +33,9 @@ const students = [
     id: 8869,
     gender: "male",
     major: "computer engineering",
-    enrolled: false
+    enrolled: false,
+    classPeriods: ["b", "d", "f"]
+
   },
   {
     name: "michelle chen",
@@ -39,7 +43,8 @@ const students = [
     id: 428,
     gender: "female",
     major: "economics",
-    enrolled: true
+    enrolled: true,
+    classPeriods: ["c", "d", "g"]
   },
   {
     name: "liz iac",
@@ -47,44 +52,14 @@ const students = [
     id: 222,
     gender: "female",
     major: "chemical engineering",
-    enrolled: false
+    enrolled: false,
+    classPeriods: ["b", "e", "f"]
   },
 ]
 
-const teachers = [
-  {
-    name: "jbiebs",
-    age: 22,
-    id: 1888,
-    gender: "male",
-    subject: "statistics",
-    department: "mathematics"
-  },
-  {
-    name: "cameron",
-    age: 60,
-    id: 1000,
-    gender: "female",
-    subject: "gender studies",
-    department: "humanities"
-
-  },
-  {
-    name: "jenny yoon",
-    age: 34,
-    id: 5444,
-    gender: "male",
-    subject: "mathematics",
-    department: "humanities"
-  },
-]
-
-function evenGradesList(list) {
-  return "hello world"
-}
 
 const checkIt = function() {
-  showIt("copy-01", evenGradesList(grades));
+  // showIt("copy-01", evenGradesList(grades));
 }
 
 checkIt();
