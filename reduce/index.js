@@ -5,8 +5,15 @@ const showIt = function(scenario, anyObject) {
 }
 
 // same drill as last time, only for loops
+// find the count of all the grades
+// find the count of all the student names
+// find the sum of all the grades
+// make a string with all the names back to back
+// make an hash with the name as the key, and the number of repetitions as the value using student names
+// make a hash with the id of the student as the key, and the class periods as the value
 
 const grades = [70, 50, 70, 24, 77, 93, 99, 82, 42, 59, 73]
+const studentNames = ["andrew", "andrew", "scott", "scott", "scott", "maggie", "vlad", "vlad", "matt", "matt", "matt"]
 
 const students = [
   {
